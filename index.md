@@ -1,46 +1,46 @@
 <!DOCTYPE html>
-<html>
-   <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
-         Aoi Senritsu Stories
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aoi Senritsu Stories</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Lavishly+Yours&display=swap" rel="stylesheet">
   </head>
-  <body>
-        <header>
-     <h1>Mon Site Web</h1>
-     <nav>
+
+  <header>
+    <h1 class=""> Aoi Senritsu Stories</h1>
+    <p>Bienvenue. Ici, vous trouverez toutes mes histoires Sims 4.</p>
+    <nav>
         <ul>
-          <li>Accueil</li>
-          <li>Mission Déesse</li>
-       </ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="">Mission D&#233esse</a></li>
+        </ul>
     </nav>
-</header>
-        <main>
-           <section id="banner">
-                <h1>Mon Premier Site Web</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Etiam eu luctus ipsum, rhoncus semper magna. Nulla nec magna sit amet sem interdum condimentum.</p>
-            </section>
-           <section id="features" >
-    <div>
-        <img src="./img/logo_html.png" />
-        <h3>HTML5</h3>  
-       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies
-       </p>
-    </div>
-    <div>
-       <img src="./img/logo_css.png" />
-       <h3>CSS3</h3>
-       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies
-       </p>
-    </div>
-    <div>
-        <img src="./img/logo_js.png" />
-        <h3>JS</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies
-        </p>
-     </div>
-</section>
-        </main>
-        <footer><p>Un texte personnalisé</p></footer>
-  </body>
+  </header>
+
+  <div class="content">
+    <section id="sectionindex">
+        <article>
+            <h3>Mission D&#233esse</h3>
+            <img src="img/Mission Déesse.png" alt="Mission Déesse logo" class="logoD">
+            <p class="espace">Voici ma première histoire basé sur le Challenge Step by Step de <a href="http://elinoee-simstories.eklablog.com">Elinoee (http://elinoee-simstories.eklablog.com/).</a></p>
+            <p class="baskervville-regular-italic espace">"La famille Denver est contacté par leur Déesse pour réalisé une série de tâches. Vont-ils y arrivé ?"</p>
+            <p><a href="">Règles du Step by Step</a></p>
+            <p class="espace"><a href="">Génération 1 : Eve Denver</a></p>
+            <p ><!--a href=""-->Génération 2, Woody Denver : <!--/a--></p>
+            <p><a href="">Prologue G2 : Second contact</a></p>
+            <p><a href="">Chapitre 1 : Granite Falls, nous voilà !</a></p>
+            <!--p><a href=""></a></p-->
+
+        </article>
+    </section>
+</div>
+<footer>
+    <p>De Aoi Senritsu</p>
+</footer>
+</body>
 </html>
