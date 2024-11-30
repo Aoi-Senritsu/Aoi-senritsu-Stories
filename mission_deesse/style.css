@@ -1,0 +1,204 @@
+
+/*police*/
+.lavishly-yours-regular {
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .baskervville-regular {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .baskervville-regular-italic {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  
+  
+  
+  
+
+body {
+    display: grid;
+    background-color: #000000;
+    grid-template-rows: 250px 5fr 75px;
+    grid-template-columns: 1fr;
+    margin: 0;
+    font-size: "Baskervville", serif;
+    padding: 0;
+}
+
+/*Tous les liens*/
+
+ul>li>a:link {
+    color: #C00982;
+    text-decoration: none;
+}
+
+ul>li>a:visited {
+    color: #C00982;
+    text-decoration: none;
+
+}
+ul>li>a:hover{
+    color: #ac10ac;
+}
+
+/*header des pages*/
+
+header {
+    grid-row: 1;
+    grid-column: 1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: #000000;
+    margin: 0;
+}
+
+h1 {
+    grid-row: 1;
+    font-family:"Lavishly Yours", cursive ;
+    font-weight: 300;
+    font-size: 5vw;
+    margin: 0;
+    text-align: center;
+    color: #F4A9A9;
+}
+header > p {
+    grid-row: 2;
+    font-size: 1.5vw;
+    font-family: "Baskervville",serif;
+    text-align: center;
+    color: #C00982;
+}
+
+nav {
+    grid-row: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Baskervville", serif;
+    background-color: #E8C8C8;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    list-style: none;
+    color: red;
+}
+
+nav>ul>li>a {
+    width: 10%;
+    padding: 0.5em;
+    font-size: 1.3vw;
+    text-align: center;
+}
+
+.sous {
+    display: none;
+    background-color: #E8C8C8;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav>ul li:hover .sous {
+    display: block;
+
+}
+.sous li{
+    float: none;
+    width: 100%;
+    padding: 5px;
+    text-align: left;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+
+
+
+
+h3 {
+    font-size: 3em;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    color: #C00982;
+    font-family: "Lavishly Yours", serif;
+    font-weight: 200;
+}
+h4{
+    font-size: 3em;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    color: #C00982;
+    font-family: "Lavishly Yours", serif;
+    font-weight: 200;
+}
+
+
+article {
+    border: solid 2px black;
+    text-justify: auto;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: #E8C8C8;
+    color:  #000000;
+}
+/* accueil*/
+#sectionindex {
+    display: grid;
+    grid-template-columns: 115px 1fr 1fr 115px;
+}
+#sectionindex>article {
+    grid-column: 2 /span 2;
+    grid-row: 1;
+    margin: 1em;
+    text-align: center;
+}
+#sectionpage {
+    display: grid;
+    grid-template-columns: 115px 1fr 1fr 115px;
+}
+#sectionpage>article {
+    grid-column: 2 /span 2;
+    grid-row: 1;
+    margin: 1em;
+    text-align: justify;
+}
+.center{
+    text-align: center;
+}
+.num{
+    margin-left: 2em;
+}
+.logoD {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-bottom: 1vw;
+}
+.espace {
+    margin-bottom: 2em;
+}
+a:link {
+    color: #C00982;
+}
+a:visited {
+    color: #b0146a;
+}
+
+
